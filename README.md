@@ -1,0 +1,3 @@
+Link to most recent commit: https://github.com/KirkGarrison/math-series/commit/4abd1c734eb123d3c2f00242ec50b34d9a67d349
+
+- Lab instructions had a walkthrough to connect local machine and github repo, and when/where to create the files and venv. They did not specify to branch until the README portion of the submission instructions, so I finished and didn't know I was supposed to branch until now. I will review the final submission instructions tomorrow, prior to beginning my coding.
