@@ -11,15 +11,15 @@ def test_import():
 
 def test_fibonacci_one():
     actual = fibonacci(5)
-    expected = 6
+    expected = 5
     assert actual == expected
 
 def test_lucas_one():
     actual = fibonacci(5)
-    expected = 6
+    expected = 5
     assert actual == expected
 
 def test_sum_series_one():
-    actual = fibonacci(5)
+    actual = fibonacci(4)
     expected = 4
     assert actual == expected

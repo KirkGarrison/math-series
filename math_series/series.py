@@ -1,7 +1,8 @@
 
-# change n variable value to find the nth position of the fibonacci sequence
+# change x variable value to find the nth position of the fibonacci sequence
 
-n = 6
+x = 6
+
 def fibonacci(n):
     if n == 0:
         return 0
@@ -10,10 +11,10 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
  
-print(fibonacci(n))
+print(fibonacci(x))
 
-# change n variable value to find the nth position of the lucas sequence
-n = 6
+# change x variable above to find the nth positional value of the lucas sequence
+
 def lucas(n):
     if n == 0:
         return 2
@@ -22,14 +23,15 @@ def lucas(n):
     else:
         return lucas(n-1) + lucas(n-2)
 
-print(lucas(n))
+print(lucas(x))
 
-n = 6
-def sum_series(n, zero, first):
-    if zero == 0:
-        return 0
-    elif first == 1:
-        return 1
+# change x variable above to find the nth positional value of the sum_series sequence (with default fibonacci args)
+
+def sum_series(n, sequence_first=0, sequence_second=1):
+    if n <= sequence_first or n <= sequence_second:
+        return n
     else:
-        return sum_series(n-1) + sum_series(n-2)
-print(sum_series(n))
+        return sum_series(n-1, sequence_first, sequence_second) + sum_series(n-2, sequence_first, sequence_second)
+
+print(sum_series(x, sequence_first=0, sequence_second=1))
+
