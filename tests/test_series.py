@@ -21,5 +21,5 @@ def test_lucas_one():
 
 def test_sum_series_one():
     actual = fibonacci(4)
-    expected = 4
+    expected = 3
     assert actual == expected
